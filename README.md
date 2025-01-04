@@ -1,5 +1,4 @@
-# AI
-Artificial Intelligence
+
 # Bas AI Assistant
 
 Bas is a customizable, local AI assistant designed to enhance productivity and integrate seamlessly with tools like Telegram, Google Calendar, and more. This repository contains all the code, configurations, and documentation needed to run Bas on your machine.
