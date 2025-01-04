@@ -1,0 +1,109 @@
+# Contributing to Bas AI Assistant
+
+Thank you for your interest in contributing to Bas AI Assistant! Contributions, whether it's reporting bugs, suggesting features, or submitting pull requests, are highly appreciated. This guide will help you get started.
+
+---
+
+## How Can You Contribute?
+
+### 1. Report Issues
+If you encounter any bugs or have feature requests, please [open an issue](https://github.com/your-username/Bas-AI-Assistant/issues) on GitHub. Be sure to include:
+- A clear and concise title.
+- Detailed steps to reproduce the issue (if applicable).
+- Screenshots or logs, if available.
+- Suggestions for how to fix the issue (optional).
+
+### 2. Suggest Enhancements
+We welcome ideas to improve Bas AI Assistant! Before suggesting, please check the [existing issues](https://github.com/your-username/Bas-AI-Assistant/issues) to avoid duplicates.
+
+### 3. Submit Pull Requests
+You can contribute directly by submitting pull requests for:
+- Bug fixes
+- New features
+- Documentation improvements
+
+---
+
+## Getting Started
+
+### Step 1: Fork the Repository
+Fork the repository by clicking the `Fork` button on the top-right corner of the project page.
+
+### Step 2: Clone the Fork
+Clone your fork to your local machine:
+```bash
+git clone https://github.com/your-username/Bas-AI-Assistant.git
+cd Bas-AI-Assistant
+```
+
+### Step 3: Create a Branch
+Create a new branch for your feature or fix:
+```bash
+git checkout -b feature/your-feature-name
+```
+
+### Step 4: Make Changes
+1. Follow the project structure and code style.
+2. Add or update tests in the `tests/` directory.
+3. Test your changes locally.
+
+### Step 5: Commit Changes
+Commit your changes with a meaningful message:
+```bash
+git add .
+git commit -m "Add feature: your-feature-name"
+```
+
+### Step 6: Push to Your Fork
+Push your changes to your forked repository:
+```bash
+git push origin feature/your-feature-name
+```
+
+### Step 7: Open a Pull Request
+1. Go to the original repository on GitHub.
+2. Click the `Pull Requests` tab.
+3. Click `New Pull Request` and select your branch.
+4. Provide a clear description of your changes and link to any related issues.
+
+---
+
+## Code Guidelines
+
+### Style
+- Follow PEP 8 for Python code.
+- Use meaningful variable and function names.
+- Add comments to explain complex logic.
+
+### Testing
+- Add tests for new features or bug fixes.
+- Run tests before submitting your pull request:
+  ```bash
+  pytest tests/
+  ```
+
+### Documentation
+- Update the `README.md` and `docs/` if your changes affect usage or functionality.
+
+---
+
+## Pull Request Checklist
+Before submitting a pull request:
+- [ ] Ensure your code passes existing tests.
+- [ ] Add new tests for any changes.
+- [ ] Update relevant documentation.
+- [ ] Verify that your code follows the project style.
+- [ ] Provide a detailed description of your changes.
+
+---
+
+## Code of Conduct
+Please read and follow our [Code of Conduct](CODE_OF_CONDUCT.md) to ensure a welcoming environment for all contributors.
+
+---
+
+## Questions?
+If you have any questions about contributing, feel free to open an issue or reach out to the maintainers directly.
+
+Thank you for contributing to Bas AI Assistant!
+
