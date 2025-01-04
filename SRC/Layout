@@ -1,0 +1,13 @@
+src/
+├── main.py          # Entry point of the application
+├── ai_core/         # Core AI logic
+│   ├── __init__.py  # Makes this a Python module
+│   ├── model.py     # Handles AI model setup and interactions
+├── integrations/    # Integrations like Telegram, Google Calendar
+│   ├── __init__.py  # Makes this a Python module
+│   ├── telegram.py  # Telegram bot integration
+│   ├── calendar.py  # Google Calendar integration
+├── utils/           # Helper utilities
+│   ├── __init__.py  # Makes this a Python module
+│   ├── logger.py    # Logging setup
+│   ├── config.py    # Configuration management
